@@ -1,0 +1,13 @@
+.BurgerBuilder{
+    background-color: burlywood;
+    height: 100%;
+    width: 80%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    color: rgb(77, 185, 185);
+}

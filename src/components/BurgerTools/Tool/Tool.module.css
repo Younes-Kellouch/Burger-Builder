@@ -1,0 +1,24 @@
+.Tool{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(155, 103, 26);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Button{
+    background-color: cyan;
+    height: 60px;
+    width:60px;
+    font-size: 26px;
+    font-weight: bold;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+
+.Button:hover{
+    background-color: rgb(75, 161, 161);
+}
