@@ -1,13 +1,35 @@
 .BurgerBuilder{
-    background-color: burlywood;
-    height: 100%;
-    width: 80%;
-    margin:auto;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Tools{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
 }
-h1{
-    color: rgb(77, 185, 185);
+.OrderButton{
+    width: 180px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #00203FFF;
+    cursor: pointer;
+    margin-top: 15px;
+    color: rgb(224, 217, 217);
+}
+
+.OrderButton:hover{
+    background-color: rgb(0, 32, 63,0.5);
+    color: rgb(255, 255, 255);
+}
+
+.OrderButton:disabled{
+    background-color: rgb(0, 32, 63,0.5);
+    border: 1px solid rgb(128, 123, 123);
+    color: #836262;
+    cursor: not-allowed;
 }

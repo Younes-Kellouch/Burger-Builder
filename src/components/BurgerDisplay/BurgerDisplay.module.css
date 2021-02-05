@@ -1,0 +1,30 @@
+.BreadTop{
+    height: 117px;
+    width: 369px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    background: linear-gradient(#bc581e, #e27b36);
+    margin-bottom: 10px;
+    box-shadow: inset -40px 0 #b65515;
+}
+
+.BreadButtom{
+    height: 60px;
+    width:369px;
+    border-radius: 10px;
+    background: linear-gradient(#F08E4A, #e27b36);
+    box-shadow: inset -40px 0 #c15711;
+    margin: 5px 0 20px 0;
+}
+
+.Burger {
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    color:  rgb(240, 243, 247);
+    font-size: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin-top:80px;
+}

@@ -1,24 +1,59 @@
 .Tool{
     height: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+    width: 600px;
+    display: grid;
+    margin-bottom: 6px;
+    grid-template-columns: repeat(12,1fr);
+    background-color: #ADEFD1FF;
+    font-size: 22px;
+    border-radius: 4px;
+    font-weight:bolder;
     align-items: center;
-    background-color: rgb(155, 103, 26);
-    font-size: 20px;
-    font-weight: bold;
 }
 
-.Button{
-    background-color: cyan;
-    height: 60px;
-    width:60px;
+.Tool div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Tool .Infos{
+    grid-column: 1/5;
+    display:flex;
+    justify-content: space-around;
+}
+
+.Tool .Number{
+    grid-column: 6/7;
+    display: flex;
+    justify-content: center;
+}
+
+.Tool .Add{
+    grid-column: 8/10;
+}
+
+.Tool .Remove{
+    grid-column: 11/-1;
+}
+
+.Tool .Button{
+    height: 100%;
+    background-color: rgb(5, 56, 107);
     font-size: 26px;
     font-weight: bold;
-    color: blanchedalmond;
+    color:white;
+    border: none;
+    outline: none;
     cursor: pointer;
 }
 
-.Button:hover{
+.Tool .Button:hover{
     background-color: rgb(75, 161, 161);
+}
+
+.Tool .Button:disabled {
+    background-color: rgb(3, 36, 70,0.6);
+    cursor: not-allowed;
+    border: 1px solid rgb(128, 123, 123);
+    color: #836262;
 }

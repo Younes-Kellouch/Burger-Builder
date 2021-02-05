@@ -1,0 +1,18 @@
+.BackDrop{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 50;
+    background-color: rgb(17, 14, 14,0.9);
+    transition: opacity 1s ease-in-out;
+}
+
+.Show{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.Hide{
+    opacity: 0;
+    pointer-events: none;
+}

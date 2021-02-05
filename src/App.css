@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
 .App{
-  margin-top: 100px;
-  height:900px;
-  width: 100%;
+  font-family: 'Kanit', sans-serif;
+  background: linear-gradient(110deg,#00203FFF 30%, #ADEFD1FF); 
+  height: 100%;
 }

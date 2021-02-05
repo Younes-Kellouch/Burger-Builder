@@ -1,0 +1,27 @@
+.Button{
+    height: 90px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.5 ease-in-out;
+}
+
+.Button.Continue{
+    color:green
+}
+
+.Button.Continue:hover{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Button.Cancel{
+    color:red
+}
+
+.Button.Cancel:hover{
+    font-size: 30px;
+    font-weight: bold;
+}

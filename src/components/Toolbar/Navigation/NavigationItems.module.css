@@ -1,0 +1,27 @@
+.NavigationItems{
+    display: flex;
+    list-style: none;
+    height: 100%;
+}
+
+.NavigationItem{
+    height: 100%;
+    width: 160px;
+    margin-left: 5px;
+}
+
+.NavigationItem a{
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px solid transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.NavigationItem a:hover , .NavigationItem a:active ,.NavigationItem a.Active{
+    background-color:  rgb(5, 56, 107);
+    color:rgb(155, 245, 204);
+    border-bottom: 4px solid rgb(244, 245, 244);
+}
