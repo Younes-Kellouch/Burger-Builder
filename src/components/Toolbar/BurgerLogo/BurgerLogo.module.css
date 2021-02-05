@@ -1,8 +1,10 @@
 .BurgerLogo{
     height: 90%;
     padding: 10px;
-    background-color:#00203FFF;
+    background-color:#00203f;
     border-radius: 8px;
+    position: relative;
+    left: 80px;
 }
 
 .BurgerLogo img{
